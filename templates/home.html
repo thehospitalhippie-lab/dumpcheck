@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">{{ site.state }} · Last checked {{ updated_human }}</p>
+    <h1>RV dump stations that are actually open.</h1>
+    <p class="lede">Old dump-station lists are full of places that closed years ago. Every station on DumpCheck is checked against an official source — the park service, the Corps of Engineers or the business itself — and stamped with the date we checked.</p>
+    <p class="pills">
+      <a class="pill b-open" href="{{ url('/tennessee/') }}#open">{{ counts['open'] }} open now</a>
+      <a class="pill b-check" href="{{ url('/tennessee/') }}#check">{{ counts['check'] }} call first</a>
+      <a class="pill b-seasonal-closed" href="{{ url('/tennessee/') }}#seasonal-closed">{{ counts['seasonal-closed'] }} closed for the season</a>
+    </p>
+    <p><a class="button" href="{{ url('/tennessee/') }}">See all {{ stations|length }} stations</a></p>
+  </div>
+</section>
+
+<section class="section wrap">
+  <h2>Open right now</h2>
+  <p class="muted">These stations show as operating on their official pages as of {{ updated_human }}.</p>
+  <div class="cards">
+    {% for s in open_now %}{% include "_card.html" %}{% endfor %}
+  </div>
+</section>
+
+<section class="section wrap">
+  <h2>Guides</h2>
+  <div class="guide-grid">
+    {% for g in guides %}
+    <a class="guide-card" href="{{ url(g.path) }}"><span class="guide-title">{{ g.title }}</span><span class="guide-summary">{{ g.summary }}</span></a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section wrap trust">
+  <h2>How we check</h2>
+  <div class="trust-grid">
+    <div><h3>Official sources only</h3><p>A station gets listed when the operator's own page says it's there: National Park Service, U.S. Army Corps of Engineers, a state agency or the business itself. Review sites and user-submitted lists are leads, not proof.</p></div>
+    <div><h3>Dated, with a status</h3><p>Every station shows the date we checked it and one of four statuses: open, call first, closed for the season or closed. Seasonal stations get marked when their season ends.</p></div>
+    <div><h3>Re-checked on a schedule</h3><p>We re-check stations regularly and add new ones as we verify them. Found one that's closed? <a href="{{ url('/suggest/') }}">Tell us</a> and we'll check it.</p></div>
+  </div>
+</section>
+{% endblock %}

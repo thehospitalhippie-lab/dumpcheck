@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block head %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endblock %}
+{% block content %}
+<header class="page-head wrap">
+  <p class="eyebrow">{{ site.state }} · {{ stations|length }} stations · Checked {{ updated_human }}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="lede">Each station below is confirmed by an official source, with the date we checked. Stations change, so call ahead if you're running low.</p>
+</header>
+<div class="wrap">
+  <div class="filters" role="group" aria-label="Filter by status">
+    <button type="button" class="filter is-on" data-filter="all" aria-pressed="true">All</button>
+    {% for key, info in status_info.items() if stations|selectattr('status', 'equalto', key)|list %}
+    <button type="button" class="filter" data-filter="{{ key }}" aria-pressed="false">{{ info[0] }}</button>
+    {% endfor %}
+  </div>
+  <details class="legend"><summary>What the statuses mean</summary>
+    <ul>{% for key, info in status_info.items() %}<li><span class="badge b-{{ key }}">{{ info[0] }}</span> {{ info[1] }}</li>{% endfor %}</ul>
+  </details>
+  {% for label, items in groups %}
+  <section class="region">
+    <h2>{{ label }} <span class="count">{{ items|length }}</span></h2>
+    <div class="cards">{% for s in items %}{% include "_card.html" %}{% endfor %}</div>
+  </section>
+  {% endfor %}
+  <p class="next-up">West Tennessee, Tennessee state parks and more truck stops are next on our list. <a href="{{ url('/suggest/') }}">Know a station we're missing?</a></p>
+</div>
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.filter');
+  function apply(f) {
+    document.querySelectorAll('.station').forEach(function (el) {
+      el.hidden = !(f === 'all' || el.getAttribute('data-status') === f);
+    });
+    document.querySelectorAll('.region').forEach(function (sec) {
+      sec.hidden = !sec.querySelector('.station:not([hidden])');
+    });
+    buttons.forEach(function (b) {
+      var on = b.getAttribute('data-filter') === f;
+      b.classList.toggle('is-on', on);
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+  buttons.forEach(function (b) { b.addEventListener('click', function () { apply(b.getAttribute('data-filter')); }); });
+  var h = (location.hash || '').replace('#', '');
+  if (h && document.querySelector('.filter[data-filter="' + h + '"]')) apply(h);
+})();
+</script>
+{% endblock %}

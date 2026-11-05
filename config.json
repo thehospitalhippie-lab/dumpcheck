@@ -1,0 +1,14 @@
+{
+  "site_name": "DumpCheck",
+  "tagline": "RV dump stations that are actually open — checked and dated.",
+  "description": "Tennessee RV dump stations checked against official sources, with the date we checked, the season, the fee and whether there's water. Closed and seasonal stations are marked.",
+  "site_url": "https://thehospitalhippie-lab.github.io",
+  "base_path": "/dumpcheck",
+  "language": "en-US",
+  "state": "Tennessee",
+  "owner_line": "Made in Nashville, Tennessee.",
+  "suggest_form_url": "",
+  "amazon_tag": "",
+  "analytics_snippet": "",
+  "search_console_verification": ""
+}

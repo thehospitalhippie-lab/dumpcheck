@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://thehospitalhippie-lab.github.io/dumpcheck/sitemap.xml

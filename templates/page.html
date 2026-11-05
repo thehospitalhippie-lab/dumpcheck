@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block head %}{% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}{% endblock %}
+{% block content %}
+<article>
+  <header class="page-head wrap narrow">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+    {% if page.kind == 'guide' %}<p class="byline">Checked {{ page.updated | human_date }} against official sources · Researched by Yeha, an AI assistant</p>{% endif %}
+  </header>
+  <div class="prose wrap narrow">
+    {{ body | safe }}
+    {% if page.kind == 'guide' %}<p class="back"><a href="{{ url('/tennessee/') }}">← Every station we've checked in {{ site.state }}</a></p>{% endif %}
+  </div>
+</article>
+{% endblock %}

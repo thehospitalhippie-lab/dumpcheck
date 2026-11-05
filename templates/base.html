@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.path == '/' %}{{ site.site_name }} — {{ site.tagline }}{% else %}{{ page.title }} · {{ site.site_name }}{% endif %}</title>
+  <meta name="description" content="{{ page.description }}">
+  <link rel="canonical" href="{{ canonical(page.path) }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:url" content="{{ canonical(page.path) }}">
+  <meta property="og:site_name" content="{{ site.site_name }}">
+  <meta name="theme-color" content="#1b4332">
+  {% if site.search_console_verification %}<meta name="google-site-verification" content="{{ site.search_console_verification }}">{% endif %}
+  <link rel="icon" href="{{ url('/static/favicon.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url('/static/style.css') }}?v={{ build_id }}">
+  {% block head %}{% endblock %}
+  {% if site.analytics_snippet %}{{ site.analytics_snippet | safe }}{% endif %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="{{ url('/') }}" aria-label="{{ site.site_name }} home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="8" fill="#ffd166"/><path d="M9 16.5l4.5 4.5L23 11" fill="none" stroke="#1b4332" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>{{ site.site_name }}</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="{{ url('/tennessee/') }}"{% if page.path == '/tennessee/' %} aria-current="page"{% endif %}>All stations</a>
+        {% for g in guides if g.nav %}<a href="{{ url(g.path) }}"{% if page.path == g.path %} aria-current="page"{% endif %}>{{ g.nav }}</a>{% endfor %}
+        <a href="{{ url('/about/') }}"{% if page.path == '/about/' %} aria-current="page"{% endif %}>About</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand">{{ site.site_name }}</p>
+        <p>{{ site.owner_line }} Independent — not run by or affiliated with any park, agency or business. Stations change, so call ahead when it matters.</p>
+      </div>
+      <div>
+        <p><a href="{{ url('/suggest/') }}">Report a closed or missing station</a></p>
+        <p><a href="{{ url('/disclosures/') }}">Disclosures &amp; privacy</a></p>
+        <p class="muted">Updated {{ updated_human }}</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

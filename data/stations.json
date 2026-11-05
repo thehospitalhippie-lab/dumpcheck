@@ -1,0 +1,354 @@
+[
+  {
+    "id": "grsm-cades-cove",
+    "name": "Cades Cove Campground dump station",
+    "region": "east",
+    "area": "Smokies",
+    "operator": "National Park Service",
+    "kind": "national-park",
+    "where": "Cades Cove Campground, Great Smoky Mountains National Park, near Townsend",
+    "address": "",
+    "highway": "",
+    "phone": "865-436-1200",
+    "website": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm",
+    "status": "open",
+    "status_note": "The campground is open year-round.",
+    "season": "Campground open year-round",
+    "hours": "",
+    "access": "NPS doesn't say whether you have to be camping there.",
+    "fee": "No fee listed by NPS.",
+    "water": "Potable water at the station (NPS).",
+    "notes": "NPS doesn't say whether the water stays on in freezing weather. In a hard freeze, call first. The park number (865-436-1200) is a recorded information line.",
+    "sources": [
+      {
+        "title": "National Park Service: Frontcountry Camping, Great Smoky Mountains (dump station list)",
+        "url": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm"
+      },
+      {
+        "title": "National Park Service: Smokies Guide, Spring 2026 (expected 2026 campground dates; public-domain copy hosted by pocketmaps.icoat.de)",
+        "url": "https://pocketmaps.icoat.de/nps/brochure/nps-grsm-guide-2026-spring"
+      },
+      {
+        "title": "National Park Service: Great Smoky Mountains, Contact Us (865-436-1200)",
+        "url": "https://www.nps.gov/grsm/contacts.htm"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "grsm-sugarlands",
+    "name": "Sugarlands dump station (across from the visitor center)",
+    "region": "east",
+    "area": "Smokies",
+    "operator": "National Park Service",
+    "kind": "national-park",
+    "where": "Across the road from Sugarlands Visitor Center, near Gatlinburg — about 6 miles from Elkmont Campground",
+    "address": "",
+    "highway": "US 441 (Newfound Gap Road)",
+    "phone": "865-436-1200",
+    "website": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm",
+    "status": "check",
+    "status_note": "NPS lists this station but gives no season or hours. Call before you count on it in winter.",
+    "season": "Not stated by NPS",
+    "hours": "",
+    "access": "NPS doesn't say who may use it.",
+    "fee": "No fee listed by NPS.",
+    "water": "Not stated by NPS.",
+    "notes": "Elkmont Campground has no dump station of its own; NPS points campers here.",
+    "sources": [
+      {
+        "title": "National Park Service: Frontcountry Camping, Great Smoky Mountains (dump station list)",
+        "url": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm"
+      },
+      {
+        "title": "National Park Service: Great Smoky Mountains, Contact Us (865-436-1200)",
+        "url": "https://www.nps.gov/grsm/contacts.htm"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "grsm-cosby",
+    "name": "Cosby Campground dump station",
+    "region": "east",
+    "area": "Smokies",
+    "operator": "National Park Service",
+    "kind": "national-park",
+    "where": "Cosby Campground, Great Smoky Mountains National Park, near Cosby",
+    "address": "",
+    "highway": "",
+    "phone": "865-436-1200",
+    "website": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm",
+    "status": "seasonal-closed",
+    "status_note": "Closed for the season. NPS expected the 2026 season to run May 15 – Oct 25; 2027 dates aren't posted yet.",
+    "season": "Seasonal. Expected 2026 season: May 15 – Oct 25",
+    "hours": "",
+    "access": "NPS doesn't say whether you have to be camping there.",
+    "fee": "No fee listed by NPS.",
+    "water": "Potable water at the station (NPS).",
+    "notes": "",
+    "sources": [
+      {
+        "title": "National Park Service: Frontcountry Camping, Great Smoky Mountains (dump station list)",
+        "url": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm"
+      },
+      {
+        "title": "National Park Service: Smokies Guide, Spring 2026 (expected 2026 campground dates; public-domain copy hosted by pocketmaps.icoat.de)",
+        "url": "https://pocketmaps.icoat.de/nps/brochure/nps-grsm-guide-2026-spring"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "grsm-look-rock",
+    "name": "Look Rock Campground dump station",
+    "region": "east",
+    "area": "Smokies",
+    "operator": "National Park Service",
+    "kind": "national-park",
+    "where": "Look Rock Campground, off the Foothills Parkway West, Great Smoky Mountains National Park",
+    "address": "",
+    "highway": "Foothills Parkway West",
+    "phone": "865-436-1200",
+    "website": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm",
+    "status": "seasonal-closed",
+    "status_note": "Closed for the season. NPS expected the 2026 season to run May 8 – Oct 25; 2027 dates aren't posted yet.",
+    "season": "Seasonal. Expected 2026 season: May 8 – Oct 25",
+    "hours": "",
+    "access": "NPS doesn't say whether you have to be camping there.",
+    "fee": "No fee listed by NPS.",
+    "water": "Potable water at the station (NPS).",
+    "notes": "Look Rock is the only campground in the park with some electric and water hookups (NPS).",
+    "sources": [
+      {
+        "title": "National Park Service: Frontcountry Camping, Great Smoky Mountains (dump station list)",
+        "url": "https://www.nps.gov/grsm/planyourvisit/frontcountry-camping.htm"
+      },
+      {
+        "title": "National Park Service: Smokies Guide, Spring 2026 (expected 2026 campground dates; public-domain copy hosted by pocketmaps.icoat.de)",
+        "url": "https://pocketmaps.icoat.de/nps/brochure/nps-grsm-guide-2026-spring"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "usace-seven-points",
+    "name": "Seven Points Campground dump station (J. Percy Priest Lake)",
+    "region": "middle",
+    "area": "Nashville area",
+    "operator": "U.S. Army Corps of Engineers",
+    "kind": "corps",
+    "where": "Seven Points Campground, J. Percy Priest Lake, Hermitage",
+    "address": "1810 Stewarts Ferry Pike, Hermitage, TN 37076",
+    "highway": "I-40 Exit 221B",
+    "phone": "615-889-5198",
+    "website": "https://recreation.gov/camping/campgrounds/232702",
+    "status": "check",
+    "status_note": "Seasonal campground, and its Recreation.gov page doesn't list this year's dates. Call before you go.",
+    "season": "Seasonal (Corps campgrounds here open in spring and close by late fall)",
+    "hours": "",
+    "access": "Recreation.gov doesn't say whether non-campers may use it.",
+    "fee": "Not listed.",
+    "water": "The campground has drinking water.",
+    "notes": "",
+    "sources": [
+      {
+        "title": "Recreation.gov: Seven Points (TN)",
+        "url": "https://recreation.gov/camping/campgrounds/232702"
+      },
+      {
+        "title": "Recreation.gov: J. Percy Priest Lake (managed by the U.S. Army Corps of Engineers)",
+        "url": "https://recreation.gov/gateways/387"
+      },
+      {
+        "title": "U.S. Army Corps of Engineers, Nashville District (via DVIDS): campgrounds open in stages from March and close as late as November",
+        "url": "https://dvidshub.net/news/158993/vacationers-invited-go-camping-cumberland-river-basin"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "usace-anderson-road",
+    "name": "Anderson Road Campground dump station (J. Percy Priest Lake)",
+    "region": "middle",
+    "area": "Nashville area",
+    "operator": "U.S. Army Corps of Engineers",
+    "kind": "corps",
+    "where": "Anderson Road Campground, J. Percy Priest Lake, Nashville (Antioch side)",
+    "address": "4010 Anderson Road, Nashville, TN 37217",
+    "highway": "",
+    "phone": "615-361-1980",
+    "website": "https://recreation.gov/camping/campgrounds/232515",
+    "status": "check",
+    "status_note": "Seasonal campground, and its Recreation.gov page doesn't list this year's dates. Call before you go.",
+    "season": "Seasonal (Corps campgrounds here open in spring and close by late fall)",
+    "hours": "",
+    "access": "Recreation.gov doesn't say whether non-campers may use it.",
+    "fee": "Not listed.",
+    "water": "The campground has drinking water.",
+    "notes": "",
+    "sources": [
+      {
+        "title": "Recreation.gov: Anderson Road Campground",
+        "url": "https://recreation.gov/camping/campgrounds/232515"
+      },
+      {
+        "title": "Recreation.gov: J. Percy Priest Lake (managed by the U.S. Army Corps of Engineers)",
+        "url": "https://recreation.gov/gateways/387"
+      },
+      {
+        "title": "U.S. Army Corps of Engineers, Nashville District (via DVIDS): campgrounds open in stages from March and close as late as November",
+        "url": "https://dvidshub.net/news/158993/vacationers-invited-go-camping-cumberland-river-basin"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "usace-poole-knobs",
+    "name": "Poole Knobs Campground dump station (J. Percy Priest Lake)",
+    "region": "middle",
+    "area": "Nashville area",
+    "operator": "U.S. Army Corps of Engineers",
+    "kind": "corps",
+    "where": "Poole Knobs Campground, J. Percy Priest Lake, LaVergne",
+    "address": "493 Jones Mill Road, LaVergne, TN 37086",
+    "highway": "",
+    "phone": "615-459-6948",
+    "website": "https://recreation.gov/camping/campgrounds/232677",
+    "status": "check",
+    "status_note": "Seasonal campground, and its Recreation.gov page doesn't list this year's dates. Call before you go.",
+    "season": "Seasonal (Corps campgrounds here open in spring and close by late fall)",
+    "hours": "",
+    "access": "Recreation.gov doesn't say whether non-campers may use it.",
+    "fee": "Not listed.",
+    "water": "The campground has drinking water.",
+    "notes": "",
+    "sources": [
+      {
+        "title": "Recreation.gov: Poole Knobs",
+        "url": "https://recreation.gov/camping/campgrounds/232677"
+      },
+      {
+        "title": "Recreation.gov: J. Percy Priest Lake (managed by the U.S. Army Corps of Engineers)",
+        "url": "https://recreation.gov/gateways/387"
+      },
+      {
+        "title": "U.S. Army Corps of Engineers, Nashville District (via DVIDS): campgrounds open in stages from March and close as late as November",
+        "url": "https://dvidshub.net/news/158993/vacationers-invited-go-camping-cumberland-river-basin"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "loves-white-house-629",
+    "name": "Love's Travel Stop #629 (White House)",
+    "region": "middle",
+    "area": "Nashville area",
+    "operator": "Love's Travel Stops",
+    "kind": "truck-stop",
+    "where": "I-65 Exit 108, White House",
+    "address": "1001 Highway 76, White House, TN 37188",
+    "highway": "I-65 Exit 108",
+    "phone": "615-672-0261",
+    "website": "https://www.loves.com/locations/629",
+    "status": "open",
+    "status_note": "Love's store page lists RV Dump Service, and the store is open 24 hours.",
+    "season": "Year-round",
+    "hours": "Store open 24 hours",
+    "access": "It's a public travel stop. Ask inside before you pull up to the dump.",
+    "fee": "Not posted online. Ask at the register.",
+    "water": "Not stated on Love's page.",
+    "notes": "",
+    "sources": [
+      {
+        "title": "Love's: Store #629, White House, TN (amenities list)",
+        "url": "https://www.loves.com/locations/629"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "loves-jasper-490",
+    "name": "Love's Travel Stop #490 (Jasper)",
+    "region": "east",
+    "area": "Chattanooga area",
+    "operator": "Love's Travel Stops",
+    "kind": "truck-stop",
+    "where": "I-24 Exit 158, Jasper",
+    "address": "260 TVA Road, Jasper, TN 37347",
+    "highway": "I-24 Exit 158",
+    "phone": "423-942-3345",
+    "website": "https://loves.com/locations/490",
+    "status": "open",
+    "status_note": "Love's store page lists RV Dump Service, and the store is open 24 hours.",
+    "season": "Year-round",
+    "hours": "Store open 24 hours",
+    "access": "It's a public travel stop. Ask inside before you pull up to the dump.",
+    "fee": "Not posted online. Ask at the register.",
+    "water": "Not stated on Love's page.",
+    "notes": "",
+    "sources": [
+      {
+        "title": "Love's: Store #490, Jasper, TN (amenities list)",
+        "url": "https://loves.com/locations/490"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "loves-loudon-861",
+    "name": "Love's Travel Stop #861 (Loudon)",
+    "region": "east",
+    "area": "Knoxville area",
+    "operator": "Love's Travel Stops",
+    "kind": "truck-stop",
+    "where": "I-75 Exit 72, Loudon",
+    "address": "222 Elizabeth Lee Pkwy, Loudon, TN 37774",
+    "highway": "I-75 Exit 72",
+    "phone": "865-205-3070",
+    "website": "https://www.loves.com/locations/861",
+    "status": "open",
+    "status_note": "Love's store page lists RV Dump Service, and the store is open 24 hours.",
+    "season": "Year-round",
+    "hours": "Store open 24 hours",
+    "access": "It's a public travel stop. Ask inside before you pull up to the dump.",
+    "fee": "Not posted online. Ask at the register.",
+    "water": "Not stated on Love's page.",
+    "notes": "Love's page also lists RV hookups at this store.",
+    "sources": [
+      {
+        "title": "Love's: Store #861, Loudon, TN (amenities list)",
+        "url": "https://www.loves.com/locations/861"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  },
+  {
+    "id": "loves-mosheim-787",
+    "name": "Love's Travel Stop #787 (Mosheim)",
+    "region": "east",
+    "area": "Greeneville area",
+    "operator": "Love's Travel Stops",
+    "kind": "truck-stop",
+    "where": "I-81 Exit 30, Mosheim",
+    "address": "10465 Lonesome Pine Trail, Mosheim, TN 37818",
+    "highway": "I-81 Exit 30",
+    "phone": "423-422-2890",
+    "website": "https://www.loves.com/locations/tn/mosheim/loves-travel-stop-mosheim-787",
+    "status": "open",
+    "status_note": "Love's store page lists RV Dump Service, and the store is open 24 hours.",
+    "season": "Year-round",
+    "hours": "Store open 24 hours",
+    "access": "It's a public travel stop. Ask inside before you pull up to the dump.",
+    "fee": "Not posted online. Ask at the register.",
+    "water": "Not stated on Love's page.",
+    "notes": "Love's page also lists RV hookups at this store.",
+    "sources": [
+      {
+        "title": "Love's: Store #787, Mosheim, TN (amenities list)",
+        "url": "https://www.loves.com/locations/tn/mosheim/loves-travel-stop-mosheim-787"
+      }
+    ],
+    "last_checked": "2026-11-05"
+  }
+]

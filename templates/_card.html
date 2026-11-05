@@ -1,0 +1,16 @@
+<article class="station st-{{ s.status }}" data-status="{{ s.status }}" id="{{ s.id }}">
+  <div class="st-head"><span class="badge b-{{ s.status }}">{{ s.status_label }}</span><span class="st-area">{{ s.area }}{% if s.highway %} · {{ s.highway }}{% endif %}</span></div>
+  <h3 class="st-name">{{ s.name }}</h3>
+  <p class="st-where">{{ s.where }}{% if s.address %}<br><a href="{{ s.maps }}" rel="nofollow noopener">{{ s.address }}</a>{% else %} · <a href="{{ s.maps }}" rel="nofollow noopener">Map</a>{% endif %}</p>
+  <p class="st-note">{{ s.status_note }}</p>
+  <dl class="st-facts">
+    <div><dt>Season</dt><dd>{{ s.season }}</dd></div>
+    {% if s.hours %}<div><dt>Hours</dt><dd>{{ s.hours }}</dd></div>{% endif %}
+    <div><dt>Fee</dt><dd>{{ s.fee }}</dd></div>
+    <div><dt>Water</dt><dd>{{ s.water }}</dd></div>
+    <div><dt>Who can use it</dt><dd>{{ s.access }}</dd></div>
+    {% if s.phone %}<div><dt>Phone</dt><dd><a href="tel:+1{{ s.phone | replace('-', '') }}">{{ s.phone }}</a></dd></div>{% endif %}
+  </dl>
+  {% if s.notes %}<p class="st-extra">{{ s.notes }}</p>{% endif %}
+  <p class="st-checked"><span class="tick" aria-hidden="true">✓</span> Checked {{ s.last_checked | human_date }} · Source{% if s.sources|length > 1 %}s{% endif %}: {% for src in s.sources %}<a href="{{ src.url }}" rel="nofollow noopener" title="{{ src.title }}">{{ loop.index }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>
+</article>
