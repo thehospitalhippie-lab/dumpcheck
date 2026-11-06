@@ -165,7 +165,7 @@
         "url": "https://dvidshub.net/news/158993/vacationers-invited-go-camping-cumberland-river-basin"
       }
     ],
-    "last_checked": "2026-11-05"
+    "last_checked": "2026-11-06"
   },
   {
     "id": "usace-anderson-road",
@@ -350,5 +350,117 @@
       }
     ],
     "last_checked": "2026-11-05"
+  },
+  {
+    "id": "loves-jackson-244",
+    "name": "Love's Travel Stop #244 (Jackson)",
+    "region": "west",
+    "area": "Jackson area",
+    "operator": "Love's Travel Stops",
+    "kind": "truck-stop",
+    "where": "I-40 Exit 87 (US 70), Jackson",
+    "address": "2050 Highway 70 E, Jackson, TN 38305",
+    "highway": "I-40 Exit 87",
+    "phone": "",
+    "website": "https://www.loves.com/locations/244",
+    "status": "open",
+    "status_note": "Love's store page lists RV Dump Service, and the store is open 24 hours.",
+    "season": "Year-round",
+    "hours": "Store open 24 hours",
+    "access": "It's a public travel stop. Ask inside before you pull up to the dump.",
+    "fee": "Not posted online. Ask at the register.",
+    "water": "Not stated on Love's page.",
+    "notes": "Love's page doesn't show a phone number for this store.",
+    "sources": [
+      {
+        "title": "Love's: Store #244, Jackson, TN (amenities list)",
+        "url": "https://www.loves.com/locations/244"
+      }
+    ],
+    "last_checked": "2026-11-06"
+  },
+  {
+    "id": "loves-holladay-791",
+    "name": "Love's Travel Stop #791 (Holladay)",
+    "region": "west",
+    "area": "Tennessee River area",
+    "operator": "Love's Travel Stops",
+    "kind": "truck-stop",
+    "where": "I-40 Exit 126 (US 641), Holladay",
+    "address": "13820 Highway 641 N, Holladay, TN 38341",
+    "highway": "I-40 Exit 126",
+    "phone": "731-847-3380",
+    "website": "https://www.loves.com/locations/791",
+    "status": "open",
+    "status_note": "Love's store page lists RV Dump Service, and the store is open 24 hours.",
+    "season": "Year-round",
+    "hours": "Store open 24 hours",
+    "access": "It's a public travel stop. Ask inside before you pull up to the dump.",
+    "fee": "Not posted online. Ask at the register.",
+    "water": "Not stated on Love's page.",
+    "notes": "Love's page also lists RV hookups at this store.",
+    "sources": [
+      {
+        "title": "Love's: Store #791, Holladay, TN (amenities list)",
+        "url": "https://www.loves.com/locations/791"
+      }
+    ],
+    "last_checked": "2026-11-06"
+  },
+  {
+    "id": "loves-baxter-330",
+    "name": "Love's Travel Stop #330 (Baxter)",
+    "region": "middle",
+    "area": "Cookeville area",
+    "operator": "Love's Travel Stops",
+    "kind": "truck-stop",
+    "where": "I-40 Exit 280, Baxter",
+    "address": "110 Fast Lane, Baxter, TN 38544",
+    "highway": "I-40 Exit 280",
+    "phone": "931-858-6150",
+    "website": "https://www.loves.com/locations/330",
+    "status": "open",
+    "status_note": "Love's store page lists RV Dump Service, and the store is open 24 hours.",
+    "season": "Year-round",
+    "hours": "Store open 24 hours",
+    "access": "It's a public travel stop. Ask inside before you pull up to the dump.",
+    "fee": "Not posted online. Ask at the register.",
+    "water": "Not stated on Love's page.",
+    "notes": "We looked for a closure or construction notice on Love's page on Nov 6, 2026, and found none. If you're nearly full, call the store first.",
+    "sources": [
+      {
+        "title": "Love's: Store #330, Baxter, TN (amenities list)",
+        "url": "https://www.loves.com/locations/330"
+      }
+    ],
+    "last_checked": "2026-11-06"
+  },
+  {
+    "id": "loves-newport-796",
+    "name": "Love's Travel Stop #796 (Newport)",
+    "region": "east",
+    "area": "Newport area",
+    "operator": "Love's Travel Stops",
+    "kind": "truck-stop",
+    "where": "I-40 Exit 432 (Exit 432B westbound), Newport",
+    "address": "1129 Smokey Mountain Lane, Newport, TN 37821",
+    "highway": "I-40 Exit 432",
+    "phone": "423-415-3050",
+    "website": "https://www.loves.com/locations/796",
+    "status": "open",
+    "status_note": "Love's store page lists RV Dump Service, and the store is open 24 hours.",
+    "season": "Year-round",
+    "hours": "Store open 24 hours",
+    "access": "It's a public travel stop. Ask inside before you pull up to the dump.",
+    "fee": "Not posted online. Ask at the register.",
+    "water": "Not stated on Love's page.",
+    "notes": "Love's page also lists RV hookups at this store.",
+    "sources": [
+      {
+        "title": "Love's: Store #796, Newport, TN (amenities list)",
+        "url": "https://www.loves.com/locations/796"
+      }
+    ],
+    "last_checked": "2026-11-06"
   }
 ]

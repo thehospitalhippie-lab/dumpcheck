@@ -4,9 +4,9 @@ description: No. TDOT says there are no RV dump stations at any Tennessee Welcom
 path: /guides/tennessee-rest-area-dump-stations/
 kind: guide
 eyebrow: Tennessee · Interstates
-lede: Short answer, no. Here's where to go instead on I-24, I-65, I-75 and I-81.
+lede: Short answer, no. Here's where to go instead on I-24, I-40, I-65, I-75 and I-81.
 summary: No, and here's where to dump instead along the interstates.
-updated: 2026-11-05
+updated: 2026-11-06
 order: 1
 ---
 
@@ -20,9 +20,17 @@ Rest areas also have a **two-hour parking limit** and **no overnight parking**, 
 
 Each of these Love's Travel Stops lists **RV Dump Service** on its official store page, and each store is open 24 hours.
 
+### I-40, west to east
+
+{{ stations('loves-jackson-244', 'loves-holladay-791', 'loves-baxter-330', 'loves-newport-796') }}
+
+### I-24, I-65, I-75 and I-81
+
 {{ stations('loves-white-house-629', 'loves-jasper-490', 'loves-loudon-861', 'loves-mosheim-787') }}
 
-We haven't verified a stop on I-40 yet. It's next on our list.
+## Not every truck stop has one
+
+Don't assume. **Love's #369 in Dickson** (I-40 Exit 163) doesn't list RV dump service on its store page. Neither do the Pilot and ONE9 stores we checked on I-40: Jackson (Exit 85), Holladay (Exit 126) and Knoxville (Exits 369 and 374). Heading west from Nashville on I-40? The first dump we've verified is Love's at Holladay, Exit 126.
 
 ## Before you pull in
 
@@ -38,4 +46,13 @@ We haven't verified a stop on I-40 yet. It's next on our list.
 - Love's, store #490 (Jasper): <https://loves.com/locations/490>
 - Love's, store #861 (Loudon): <https://www.loves.com/locations/861>
 - Love's, store #787 (Mosheim): <https://www.loves.com/locations/tn/mosheim/loves-travel-stop-mosheim-787>
+- Love's, store #244 (Jackson): <https://www.loves.com/locations/244>
+- Love's, store #791 (Holladay): <https://www.loves.com/locations/791>
+- Love's, store #330 (Baxter): <https://www.loves.com/locations/330>
+- Love's, store #796 (Newport): <https://www.loves.com/locations/796>
+- Love's, store #369 (Dickson; no RV dump listed): <https://www.loves.com/locations/369>
+- Pilot Travel Center #366 (Jackson; no RV dump listed): <https://locations.pilotflyingj.com/us/tn/jackson/30-sand-pebble-road>
+- ONE9 Travel Center #1366 (Holladay; no RV dump listed): <https://locations.pilotflyingj.com/us/tn/holladay/15060-s-641>
+- Pilot Travel Center #722 (Knoxville, Watt Road; no RV dump listed): <https://locations.pilotflyingj.com/us/tn/knoxville/800-watt-road>
+- Pilot Travel Center #270 (Knoxville, Lovell Road; no RV dump listed): <https://locations.pilotflyingj.com/us/tn/knoxville/314-lovell-road>
 </div>
