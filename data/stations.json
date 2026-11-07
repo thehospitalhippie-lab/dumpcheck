@@ -144,13 +144,13 @@
     "phone": "615-889-5198",
     "website": "https://recreation.gov/camping/campgrounds/232702",
     "status": "check",
-    "status_note": "Seasonal campground, and its Recreation.gov page doesn't list this year's dates. Call before you go.",
-    "season": "Seasonal (Corps campgrounds here open in spring and close by late fall)",
+    "status_note": "Seasonal campground, and the Corps hasn't posted 2026 dates. Its 2024 season ended Oct 31. Call before you go.",
+    "season": "Seasonal. 2026 dates not posted. The Corps' lake page still shows the 2024 season: Apr 1 – Oct 31",
     "hours": "",
     "access": "Recreation.gov doesn't say whether non-campers may use it.",
     "fee": "Not listed.",
     "water": "The campground has drinking water.",
-    "notes": "",
+    "notes": "The Corps' J. Percy Priest Visitor Center (615-889-1975) is open weekdays, 8 a.m. to 4 p.m.",
     "sources": [
       {
         "title": "Recreation.gov: Seven Points (TN)",
@@ -163,9 +163,13 @@
       {
         "title": "U.S. Army Corps of Engineers, Nashville District (via DVIDS): campgrounds open in stages from March and close as late as November",
         "url": "https://dvidshub.net/news/158993/vacationers-invited-go-camping-cumberland-river-basin"
+      },
+      {
+        "title": "U.S. Army Corps of Engineers: J. Percy Priest Lake recreation page (still shows 2024 campground seasons; visitor center phone)",
+        "url": "https://www.lrd.usace.army.mil/Submit-ArticleCS/Recreation/Article/3640724/j-percy-priest-lake/"
       }
     ],
-    "last_checked": "2026-11-06"
+    "last_checked": "2026-11-07"
   },
   {
     "id": "usace-anderson-road",
@@ -180,13 +184,13 @@
     "phone": "615-361-1980",
     "website": "https://recreation.gov/camping/campgrounds/232515",
     "status": "check",
-    "status_note": "Seasonal campground, and its Recreation.gov page doesn't list this year's dates. Call before you go.",
-    "season": "Seasonal (Corps campgrounds here open in spring and close by late fall)",
+    "status_note": "Seasonal campground, and the Corps hasn't posted 2026 dates. Its 2024 season ended Sept 30. Call before you go.",
+    "season": "Seasonal. 2026 dates not posted. The Corps' lake page still shows the 2024 season: May 12 – Sept 30",
     "hours": "",
     "access": "Recreation.gov doesn't say whether non-campers may use it.",
     "fee": "Not listed.",
     "water": "The campground has drinking water.",
-    "notes": "",
+    "notes": "The Corps' J. Percy Priest Visitor Center (615-889-1975) is open weekdays, 8 a.m. to 4 p.m.",
     "sources": [
       {
         "title": "Recreation.gov: Anderson Road Campground",
@@ -199,9 +203,13 @@
       {
         "title": "U.S. Army Corps of Engineers, Nashville District (via DVIDS): campgrounds open in stages from March and close as late as November",
         "url": "https://dvidshub.net/news/158993/vacationers-invited-go-camping-cumberland-river-basin"
+      },
+      {
+        "title": "U.S. Army Corps of Engineers: J. Percy Priest Lake recreation page (still shows 2024 campground seasons; visitor center phone)",
+        "url": "https://www.lrd.usace.army.mil/Submit-ArticleCS/Recreation/Article/3640724/j-percy-priest-lake/"
       }
     ],
-    "last_checked": "2026-11-05"
+    "last_checked": "2026-11-07"
   },
   {
     "id": "usace-poole-knobs",
@@ -216,13 +224,13 @@
     "phone": "615-459-6948",
     "website": "https://recreation.gov/camping/campgrounds/232677",
     "status": "check",
-    "status_note": "Seasonal campground, and its Recreation.gov page doesn't list this year's dates. Call before you go.",
-    "season": "Seasonal (Corps campgrounds here open in spring and close by late fall)",
+    "status_note": "Seasonal campground, and the Corps hasn't posted 2026 dates. Its 2024 season ended Sept 30. Call before you go.",
+    "season": "Seasonal. 2026 dates not posted. The Corps' lake page still shows the 2024 season: May 1 – Sept 30",
     "hours": "",
     "access": "Recreation.gov doesn't say whether non-campers may use it.",
     "fee": "Not listed.",
     "water": "The campground has drinking water.",
-    "notes": "",
+    "notes": "The Corps' J. Percy Priest Visitor Center (615-889-1975) is open weekdays, 8 a.m. to 4 p.m.",
     "sources": [
       {
         "title": "Recreation.gov: Poole Knobs",
@@ -235,9 +243,13 @@
       {
         "title": "U.S. Army Corps of Engineers, Nashville District (via DVIDS): campgrounds open in stages from March and close as late as November",
         "url": "https://dvidshub.net/news/158993/vacationers-invited-go-camping-cumberland-river-basin"
+      },
+      {
+        "title": "U.S. Army Corps of Engineers: J. Percy Priest Lake recreation page (still shows 2024 campground seasons; visitor center phone)",
+        "url": "https://www.lrd.usace.army.mil/Submit-ArticleCS/Recreation/Article/3640724/j-percy-priest-lake/"
       }
     ],
-    "last_checked": "2026-11-05"
+    "last_checked": "2026-11-07"
   },
   {
     "id": "loves-white-house-629",
@@ -462,5 +474,233 @@
       }
     ],
     "last_checked": "2026-11-06"
+  },
+  {
+    "id": "tsp-rock-island",
+    "name": "Rock Island State Park campground dump station",
+    "region": "middle",
+    "area": "Sparta area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Far end of the Main Campground, Rock Island State Park, about 15 miles southwest of Sparta",
+    "address": "82 Beach Road, Rock Island, TN 38581",
+    "highway": "",
+    "phone": "931-837-4770",
+    "website": "https://tnstateparks.com/parks/rock-island/camping",
+    "status": "open",
+    "status_note": "The park says the Main Campground, where the dump station is, is open year-round.",
+    "season": "Main Campground open year-round",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "The tent-only camping area closes Nov 2 – Mar 15 each year, but the Main Campground stays open. The park's brochure routes you from I-40 Exit 288 or I-24 Exit 111. In a hard freeze, call first.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Rock Island Camping (dump station; Main Campground open year-round)",
+        "url": "https://tnstateparks.com/parks/rock-island/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Rock Island State Park brochure, June 2026 (dump station, park office phone, directions)",
+        "url": "https://tnstateparks.com/sites/default/files/2026-07/Rock%20Island_RI_Brochure_2026_ForWeb.pdf"
+      },
+      {
+        "title": "Tennessee State Parks: Rock Island State Park (address and main office phone)",
+        "url": "https://tnstateparks.com/parks/rock-island"
+      }
+    ],
+    "last_checked": "2026-11-07"
+  },
+  {
+    "id": "tsp-cedars-of-lebanon",
+    "name": "Cedars of Lebanon State Park campground dump station",
+    "region": "middle",
+    "area": "Nashville area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Campground at Cedars of Lebanon State Park, Lebanon",
+    "address": "328 Cedar Forest Road, Lebanon, TN 37090",
+    "highway": "",
+    "phone": "615-443-2769",
+    "website": "https://tnstateparks.com/parks/cedars-of-lebanon/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Cedars of Lebanon Camping (dump station)",
+        "url": "https://tnstateparks.com/parks/cedars-of-lebanon/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Cedars of Lebanon State Park (address and park office phone)",
+        "url": "https://tnstateparks.com/parks/cedars-of-lebanon"
+      }
+    ],
+    "last_checked": "2026-11-07"
+  },
+  {
+    "id": "tsp-tims-ford-main",
+    "name": "Tims Ford State Park Main Campground dump station",
+    "region": "middle",
+    "area": "Winchester area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Entrance of the Main Campground, Tims Ford State Park, Winchester",
+    "address": "570 Tims Ford Drive, Winchester, TN 37398",
+    "highway": "",
+    "phone": "931-968-3536",
+    "website": "https://tnstateparks.com/parks/tims-ford/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station and winter stay limits, but no campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "Tims Ford also has a dump station at its Fairview Campground (listed separately).",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Tims Ford Camping (dump stations at the Main and Fairview campgrounds)",
+        "url": "https://tnstateparks.com/parks/tims-ford/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Tims Ford State Park (address and park phone)",
+        "url": "https://tnstateparks.com/parks/tims-ford"
+      }
+    ],
+    "last_checked": "2026-11-07"
+  },
+  {
+    "id": "tsp-tims-ford-fairview",
+    "name": "Tims Ford State Park Fairview Campground dump station",
+    "region": "middle",
+    "area": "Winchester area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Center of the Fairview Campground, Tims Ford State Park, Winchester",
+    "address": "129 Fairview Campground Road, Winchester, TN 37398",
+    "highway": "",
+    "phone": "931-968-3536",
+    "website": "https://tnstateparks.com/parks/tims-ford/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station and winter stay limits, but no campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "Tims Ford also has a dump station at its Main Campground entrance (listed separately).",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Tims Ford Camping (dump stations at the Main and Fairview campgrounds)",
+        "url": "https://tnstateparks.com/parks/tims-ford/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Tims Ford State Park (Fairview Campground address and park phone)",
+        "url": "https://tnstateparks.com/parks/tims-ford"
+      }
+    ],
+    "last_checked": "2026-11-07"
+  },
+  {
+    "id": "tsp-reelfoot-lake-south",
+    "name": "Reelfoot Lake State Park South Campground dump station",
+    "region": "west",
+    "area": "Reelfoot Lake",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Entrance of the South Campground, Reelfoot Lake State Park, Tiptonville",
+    "address": "2595 Highway 21 East, Tiptonville, TN 38079",
+    "highway": "",
+    "phone": "731-253-9652",
+    "website": "https://tnstateparks.com/parks/campground/reelfoot-lake",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "The park says there's also a dump station near its Airpark North Campground. Some day-use areas are closed for repairs; the park's notices don't mention the campgrounds.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Reelfoot Lake Camping (dump stations at the South Campground and near Airpark North)",
+        "url": "https://tnstateparks.com/parks/campground/reelfoot-lake"
+      },
+      {
+        "title": "Tennessee State Parks: Reelfoot Lake State Park (address, park office phone, closure notices)",
+        "url": "https://tnstateparks.com/parks/reelfoot-lake"
+      }
+    ],
+    "last_checked": "2026-11-07"
+  },
+  {
+    "id": "tsp-roan-mountain",
+    "name": "Roan Mountain State Park campground dump station",
+    "region": "east",
+    "area": "Roan Mountain",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Campground check-in, Roan Mountain State Park, Roan Mountain",
+    "address": "1015 Highway 143, Roan Mountain, TN 37687",
+    "highway": "",
+    "phone": "423-547-3900",
+    "website": "https://tnstateparks.com/parks/roan-mountain/camping",
+    "status": "check",
+    "status_note": "It's the park's off-season (Nov 1 – Apr 15). Most bathhouses are closed, and the park doesn't say whether the dump stays open. Call first.",
+    "season": "Campground dates not stated. Off-season bathhouse closures run Nov 1 – Apr 15.",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. RV sites have water hookups.",
+    "notes": "The upper campground is still closed after Hurricane Helene damaged its bridge. The park's notice doesn't mention the dump station.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Roan Mountain Camping (dump station at check-in; off-season; upper campground closure)",
+        "url": "https://tnstateparks.com/parks/roan-mountain/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Roan Mountain State Park (address and main office phone)",
+        "url": "https://tnstateparks.com/parks/roan-mountain"
+      }
+    ],
+    "last_checked": "2026-11-07"
+  },
+  {
+    "id": "tsp-standing-stone",
+    "name": "Standing Stone State Park campground dump station",
+    "region": "middle",
+    "area": "Livingston area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Main campground, Standing Stone State Park, Hilham",
+    "address": "1674 Standing Stone Park Highway, Hilham, TN 38568",
+    "highway": "",
+    "phone": "931-823-6347",
+    "website": "https://tnstateparks.com/parks/standing-stone/camping",
+    "status": "closed",
+    "status_note": "The campground, where the dump station is, has been closed for renovations since July 7, 2025. The park expects the work to last until late 2026.",
+    "season": "Closed for renovations. The park expects them to last until late 2026.",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "When it reopens: RVs over 30 feet must enter the park from Highway 52, and RVs are limited to 45 feet (park page).",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Standing Stone Camping (dump station; renovation closure)",
+        "url": "https://tnstateparks.com/parks/standing-stone/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Standing Stone State Park (address, park office phone, renovation notice)",
+        "url": "https://tnstateparks.com/parks/standing-stone"
+      }
+    ],
+    "last_checked": "2026-11-07"
   }
 ]

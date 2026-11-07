@@ -4,25 +4,30 @@ One item per night. Season sweeps jump the line.
 
 ## Next up
 
-1. **Tennessee State Parks with dump stations** (official tnstateparks.com pages): Cedars of Lebanon, Montgomery Bell, Meeman-Shelby Forest, T.O. Fuller, Fall Creek Falls, Rock Island, Tims Ford, Henry Horton, Panther Creek, Warriors' Path, Cove Lake, Norris Dam, Pickett, Standing Stone, Paris Landing, Chickasaw, Natchez Trace. Record whether non-campers can use them and the fee, only if the park states it.
-2. **Rest of the I-40 truck stops (Pilot / Flying J, Dandridge).** Pilot store pages now redirect to pilotcompany.com, and those redirects were refused this run. Still to check from each store's own page: Lebanon (921 Murfreesboro Rd), Dickson Pilot #409 (2320 TN-46), Knoxville Pilot #219 (7210 Strawberry Plains Pike) and store 4597 (redirects to a Gordonsville page). Already checked on 2026-11-06, no RV dump listed: Pilot #366 Jackson, ONE9 #1366 Holladay, Pilot #722 and #270 Knoxville. Dandridge (I-40 Exit 417): no Love's store page found; look for any other official truck-stop page there.
+1. **More Tennessee State Parks with dump stations** (current tnstateparks.com `/parks/<park>/camping` pages). Still to check: Meeman-Shelby Forest, T.O. Fuller, Fall Creek Falls, Henry Horton, Panther Creek, Warriors' Path, Pickett, Paris Landing, Chickasaw, Natchez Trace, Edgar Evins, David Crockett, Old Stone Fort, Mousetail Landing, Davy Crockett Birthplace, plus Cove Lake and Bledsoe Creek (both camping pages returned a client error on 2026-11-07; find another official page for them). Record whether non-campers can use them and the fee, only if the park states it. Done 2026-11-07: Rock Island, Cedars of Lebanon, Tims Ford (Main, Fairview), Reelfoot Lake South, Roan Mountain, Standing Stone. Checked, not listed: Montgomery Bell (camping page lists no dump; campground closed for renovations) and Norris Dam (current camping page: both campgrounds closed for renovation, reopening planned in 2026, no dump mentioned).
+2. **Rest of the I-40 truck stops (Pilot / Flying J, Dandridge).** Pilot store pages now redirect to pilotcompany.com, and those redirects were refused on 2026-11-06. Still to check from each store's own page: Lebanon (921 Murfreesboro Rd), Dickson Pilot #409 (2320 TN-46), Knoxville Pilot #219 (7210 Strawberry Plains Pike) and store 4597 (redirects to a Gordonsville page). Already checked on 2026-11-06, no RV dump listed: Pilot #366 Jackson, ONE9 #1366 Holladay, Pilot #722 and #270 Knoxville. Dandridge (I-40 Exit 417): no Love's store page found; look for any other official truck-stop page there.
 3. **More Corps campgrounds:** Cages Bend and Cedar Creek (Old Hickory; Recreation.gov pages don't mention a dump station, so find an official source or skip), Lock A (Cheatham), Defeated Creek and Salt Lick Creek (Cordell Hull), Floating Mill, Ragland Bottom and Long Branch (Center Hill), Dale Hollow campgrounds, Bumpus Mills.
 4. **Land Between the Lakes South Welcome Station (Dover).** Crowd lists say it has a free dump. The official LBL rates sheet doesn't mention one, so find an official source before listing.
 5. **TVA campgrounds** (Cherokee Dam, Douglas Dam, Melton Hill Dam, Loyston Point) from tva.com.
-6. **West Tennessee** (Memphis, Jackson): state parks and truck stops. Love's #244 Jackson is done.
-7. **Guide: "Free RV dump stations in Tennessee (and the catch)"** once there are enough verified free stations.
-8. **Season sweep in spring 2027:** Cosby, Look Rock and the Percy Priest campgrounds; post 2027 dates when NPS and the Corps publish them.
+6. **West Tennessee** (Memphis, Jackson): state parks and truck stops. Love's #244 Jackson and Reelfoot Lake South are done.
+7. **Guide: "Tennessee State Park dump stations"** once about 10 parks are verified (7 stations at 6 parks so far, mostly "call first").
+8. **Guide: "Free RV dump stations in Tennessee (and the catch)"** once there are enough verified free stations.
+9. **Season sweep in spring 2027:** Cosby, Look Rock and the Percy Priest campgrounds; post 2027 dates when NPS and the Corps publish them.
 
 ## Watch
 
 - **Love's #330 Baxter:** the newest crowd review (Mar 30, 2026) said the dump was closed for construction. Love's page listed RV Dump Service with no notice on 2026-11-06, so it's listed as open. Re-check it first in the next re-check sweep.
-- **Percy Priest (Anderson Road, Poole Knobs):** their Recreation.gov pages couldn't be fetched on 2026-11-06. Seven Points' page was re-checked (dump and drinking water, no season dates). Still no posted 2026 dates from the Corps.
+- **Standing Stone:** listed as closed (campground renovation since July 7, 2025; park expects it to last until late 2026). Re-check the camping page every week or so and flip it back once the park says the campground is open.
+- **Norris Dam:** both campgrounds closed for renovation with a 2026 reopening planned. When they reopen, check whether the current camping page lists a dump station before adding it.
+- **Roan Mountain:** off-season Nov 1 – Apr 15 (most bathhouses closed; dump hours not stated), and the upper campground is closed after Hurricane Helene. Listed as "call first."
+- **Percy Priest (Seven Points, Anderson Road, Poole Knobs):** re-checked 2026-11-07 (dump and drinking water on all three Recreation.gov pages). The Corps' lake page (lrd.usace.army.mil) still shows only 2024 seasons; no 2026 dates posted anywhere we found.
 - **Fetch tip:** the page fetcher refused URLs that hadn't shown up in a search result that run (PROVENANCE_REQUIRED). Search for the exact page first, then fetch it.
+- **Fetch tip (state parks):** tnstateparks.com still serves old `/parks/campground/<park>` pages next to the current `/parks/<park>/camping` pages. Use the current ones; old ones can be stale (Norris Dam's old page lists dump stations and no closure). Reelfoot's old URL is the exception: it serves the current page (canonical `/parks/reelfoot-lake/camping`). The statewide camping brochure PDF returned a client error.
 
 ## Site to-dos (need Micaiah)
 
 - **Amazon Associates** tag → `config.json` `amazon_tag` (gear links in the how-to guide turn into affiliate links).
-- **Suggestion form** (Tally) URL → `config.json` `suggest_form_url`.
+- **Suggestion form** (Tally) URL → `config.json` `suggest_form_url`. (No DumpCheck form exists in the connected Tally account yet.)
 - **Google Search Console** verification → `config.json` `search_console_verification`.
 - Optional RV programs to apply to later: Good Sam, Harvest Hosts, RV gear brands. Paste approved links in chat; Yeha never adds them on its own.
 
@@ -30,3 +35,4 @@ One item per night. Season sweeps jump the line.
 
 - 2026-11-05: Launched DumpCheck: 11 verified stations (4 Smokies NPS, 3 Corps on J. Percy Priest Lake, 4 Love's), a statewide directory with status filters, and 4 guides (rest areas, Smokies, Nashville, how to use a dump station).
 - 2026-11-06: I-40 Love's: 4 verified (Jackson #244, Holladay #791, Baxter #330, Newport #796), plus an I-40 section in the rest-area guide. Love's #369 Dickson lists no RV dump, so it isn't listed.
+- 2026-11-07: Tennessee State Parks: 7 verified stations at 6 parks (Rock Island open; Cedars of Lebanon, Tims Ford Main and Fairview, Reelfoot Lake South and Roan Mountain call first; Standing Stone closed for renovations). Nashville guide gets Cedars of Lebanon and a "skip Montgomery Bell" note; home page shows a Closed count.

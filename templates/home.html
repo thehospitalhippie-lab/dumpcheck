@@ -9,6 +9,7 @@
       <a class="pill b-open" href="{{ url('/tennessee/') }}#open">{{ counts['open'] }} open now</a>
       <a class="pill b-check" href="{{ url('/tennessee/') }}#check">{{ counts['check'] }} call first</a>
       <a class="pill b-seasonal-closed" href="{{ url('/tennessee/') }}#seasonal-closed">{{ counts['seasonal-closed'] }} closed for the season</a>
+      {% if counts['closed'] %}<a class="pill b-closed" href="{{ url('/tennessee/') }}#closed">{{ counts['closed'] }} closed</a>{% endif %}
     </p>
     <p><a class="button" href="{{ url('/tennessee/') }}">See all {{ stations|length }} stations</a></p>
   </div>
