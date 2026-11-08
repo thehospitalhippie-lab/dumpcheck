@@ -702,5 +702,325 @@
       }
     ],
     "last_checked": "2026-11-07"
+  },
+  {
+    "id": "tsp-meeman-shelby",
+    "name": "Meeman-Shelby Forest State Park campground dump station",
+    "region": "west",
+    "area": "Memphis area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Main Campground, Meeman-Shelby Forest State Park, Millington",
+    "address": "910 Riddick Road, Millington, TN 38053",
+    "highway": "",
+    "phone": "901-876-5215",
+    "website": "https://tnstateparks.com/parks/meeman-shelby/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "The park says the dump station serves campsites without sewer hookups. The one-way road past the campground is closed because of erosion; the park's notice doesn't mention the dump station.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Meeman-Shelby Camping (dump station; road closed due to erosion)",
+        "url": "https://tnstateparks.com/parks/meeman-shelby/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Meeman-Shelby Forest State Park (address and park office phone)",
+        "url": "https://tnstateparks.com/parks/meeman-shelby"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-t-o-fuller",
+    "name": "T.O. Fuller State Park campground dump station",
+    "region": "west",
+    "area": "Memphis area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Near the campground entrance, T.O. Fuller State Park, Memphis",
+    "address": "1500 W. Mitchell Road, Memphis, TN 38109",
+    "highway": "I-55 Exit 8 or 9",
+    "phone": "901-543-7581",
+    "website": "https://tnstateparks.com/parks/t-o-fuller/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "I-55 bridge work has closed Exit 7 (Third Street/Highway 61). The park says to use Exit 8 (New Horn Lake Road) for Mitchell Road or Exit 9 (Mallory Avenue) for Plant Road. Some campsites fit RVs up to 85 feet.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: T.O. Fuller Camping (dump station near the campground entrance; I-55 detour)",
+        "url": "https://tnstateparks.com/parks/t-o-fuller/camping"
+      },
+      {
+        "title": "Tennessee State Parks: T.O. Fuller State Park (address and park office phone)",
+        "url": "https://tnstateparks.com/parks/t-o-fuller"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-chickasaw",
+    "name": "Chickasaw State Park campground dump station",
+    "region": "west",
+    "area": "Henderson area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Main Campground, Chickasaw State Park, Henderson",
+    "address": "20 Cabin Lane, Henderson, TN 38340",
+    "highway": "",
+    "phone": "731-989-5141",
+    "website": "https://tnstateparks.com/parks/chickasaw/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Main Campground sites have water and sewer hookups.",
+    "notes": "The park's tent and wrangler (horse) campgrounds are closed for renovations; the notice doesn't mention the Main Campground. Some Main Campground sites fit rigs up to 94 feet.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Chickasaw Camping (dump station in the Main Campground; renovation closures; address and park office phone)",
+        "url": "https://tnstateparks.com/parks/chickasaw/camping"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-natchez-trace-cub-lake",
+    "name": "Natchez Trace State Park Cub Lake Campground 1 dump station",
+    "region": "west",
+    "area": "Wildersville area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Cub Lake Campground 1, Natchez Trace State Park, Wildersville",
+    "address": "24845 Natchez Trace Road, Wildersville, TN 38388",
+    "highway": "",
+    "phone": "731-968-3742",
+    "website": "https://tnstateparks.com/parks/natchez-trace/camping",
+    "status": "check",
+    "status_note": "Cub Lake Campground 1 is open seasonally, and the park doesn't post its dates. Call before you go.",
+    "season": "Seasonal. Dates not stated by the park.",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Cub Lake Campground 1 has water at every site.",
+    "notes": "The park also lists dump stations at Cub Lake Campground 2 and the Wrangler Campground, but both campgrounds are closed for renovations. Cub Lake Campground 1 has a strict 25-foot RV limit. The park is just off I-40: its Wrangler Campground is 2.2 miles south of I-40 on Highway 114.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Natchez Trace Camping (dump stations at Cub Lake 1, Cub Lake 2 and Wrangler; renovation closures)",
+        "url": "https://tnstateparks.com/parks/natchez-trace/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Natchez Trace State Park (address and phone)",
+        "url": "https://tnstateparks.com/parks/natchez-trace"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-paris-landing",
+    "name": "Paris Landing State Park campground dump station",
+    "region": "west",
+    "area": "Kentucky Lake",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Main Campground, Paris Landing State Park, Buchanan",
+    "address": "16055 Highway 79 N, Buchanan, TN 38222",
+    "highway": "",
+    "phone": "931-325-6655",
+    "website": "https://tnstateparks.com/parks/paris-landing/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. RV sites have water hookups.",
+    "notes": "One of the campground's two bathhouses may close for the season. RV sites fit RVs up to 38 feet, the park says. The park's main page also lists 731-641-4465, which its camping page gives for group campsite information.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Paris Landing Camping (dump station in the Main Campground)",
+        "url": "https://tnstateparks.com/parks/paris-landing/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Paris Landing State Park (address and park office phone)",
+        "url": "https://tnstateparks.com/parks/paris-landing"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-old-stone-fort",
+    "name": "Old Stone Fort State Archaeological Park campground dump station",
+    "region": "middle",
+    "area": "Manchester area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Old Stone Fort Campground, Old Stone Fort State Archaeological Park, Manchester",
+    "address": "732 Stone Fort Drive, Manchester, TN 37355",
+    "highway": "",
+    "phone": "931-461-7676",
+    "website": "https://tnstateparks.com/parks/old-stone-fort/camping",
+    "status": "open",
+    "status_note": "The park says its dump station is open year-round.",
+    "season": "Dump station open year-round",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "The park says a bridge at the park is closed to vehicles and walkers for construction. It doesn't say which bridge or whether the campground is affected, so call if you're unsure of the route. Showers are closed December through February. Campsites fit units up to 50 feet.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Old Stone Fort Camping (dump station open year-round; bridge closure; off-season showers)",
+        "url": "https://tnstateparks.com/parks/old-stone-fort/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Old Stone Fort State Archaeological Park (address and park office phone)",
+        "url": "https://tnstateparks.com/parks/old-stone-fort"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-david-crockett",
+    "name": "David Crockett State Park campground dump station",
+    "region": "middle",
+    "area": "Lawrenceburg area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Campground, David Crockett State Park, Lawrenceburg",
+    "address": "1400 West Gaines Street, Lawrenceburg, TN 38464",
+    "highway": "",
+    "phone": "931-903-2323",
+    "website": "https://tnstateparks.com/parks/david-crockett/camping",
+    "status": "check",
+    "status_note": "Campground 1 closed for the season on Nov 3, and Campground 2 is open year-round. The park doesn't say which one has the dump station, so call first.",
+    "season": "Campground 1: Mar 1 – Nov 3. Campground 2: open year-round.",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campground 2 sites have water hookups.",
+    "notes": "",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: David Crockett Camping (dump station; campground seasons)",
+        "url": "https://tnstateparks.com/parks/david-crockett/camping"
+      },
+      {
+        "title": "Tennessee State Parks: David Crockett State Park (visitor center address and phone)",
+        "url": "https://tnstateparks.com/parks/david-crockett"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-edgar-evins",
+    "name": "Edgar Evins State Park campground dump station",
+    "region": "middle",
+    "area": "Center Hill Lake",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Center of the campground, Edgar Evins State Park, Silver Point",
+    "address": "1630 Edgar Evins State Park Road, Silver Point, TN 38582",
+    "highway": "",
+    "phone": "931-646-3080",
+    "website": "https://tnstateparks.com/parks/edgar-evins/camping",
+    "status": "check",
+    "status_note": "About 20 campsites stay open all winter, but the park doesn't say whether the dump station does. Call first.",
+    "season": "Campground dates not stated. About 20 sites and one bathhouse stay open year-round.",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Campsites have water hookups.",
+    "notes": "For campground questions, the park lists 931-646-3080 from November through February and 931-858-2618 from March through October. The campground is designed for RVs up to 33 feet; a few sites take up to 40 feet.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Edgar Evins Camping (dump station; sites open year-round; campground phones; read at the park's older camping address, which serves the current page)",
+        "url": "https://tnstateparks.com/parks/campground/edgar-evins"
+      },
+      {
+        "title": "Tennessee State Parks: Edgar Evins State Park (address and phone)",
+        "url": "https://tnstateparks.com/parks/edgar-evins"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-warriors-path",
+    "name": "Warriors' Path State Park dump station",
+    "region": "east",
+    "area": "Kingsport area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Warriors' Path State Park, Kingsport (spot in the park not stated)",
+    "address": "490 Hemlock Road, Kingsport, TN 37663",
+    "highway": "",
+    "phone": "423-239-8531",
+    "website": "https://tnstateparks.com/parks/warriors-path",
+    "status": "check",
+    "status_note": "The park lists a dump station among its amenities but doesn't say where it is or when it's open. Call first.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station.",
+    "notes": "The park's reservation page says the main entrance gate opens at 5 a.m. and closes at 10 p.m.; you can drive out any time. 94 of the park's 134 campsites have RV hookups.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Warriors' Path State Park (dump station in the park amenities list; address and park office phone)",
+        "url": "https://tnstateparks.com/parks/warriors-path"
+      },
+      {
+        "title": "Tennessee State Parks reservations: Camping at Warriors' Path (entrance gate hours; campsites)",
+        "url": "https://reserve.tnstateparks.com/warriors-path/camping"
+      }
+    ],
+    "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-panther-creek",
+    "name": "Panther Creek State Park campground dump station",
+    "region": "east",
+    "area": "Morristown area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Campground, Panther Creek State Park, Morristown",
+    "address": "2010 Panther Creek Park Road, Morristown, TN 37814",
+    "highway": "",
+    "phone": "423-587-7046",
+    "website": "https://tnstateparks.com/parks/panther-creek",
+    "status": "check",
+    "status_note": "The park's brochure lists a dump station, but its current camping page didn't load for us and no dates are posted. Call first.",
+    "season": "Not stated on the park's current pages. Its 2021 brochure says the campground is open year-round.",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. The brochure says campsites have water hookups.",
+    "notes": "Construction at the park (pool parking lot, playground and courts) is set to last until mid-2027; the park's notice doesn't mention the campground. The brochure routes you from I-81 Exit 12 (Highway 160) or I-40 Exit 394 (Highway 11E North).",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Panther Creek State Park brochure, printed September 2021 (dump station; campground open year-round; directions)",
+        "url": "https://tnstateparks.com/sites/default/files/2026-04/panther_creek_brochure_2021.pdf"
+      },
+      {
+        "title": "Tennessee State Parks: Panther Creek State Park (address, phone, construction notice)",
+        "url": "https://tnstateparks.com/parks/panther-creek"
+      },
+      {
+        "title": "Tennessee State Parks reservations: Camping at Panther Creek (50 campsites)",
+        "url": "https://reserve.tnstateparks.com/panther-creek/camping"
+      }
+    ],
+    "last_checked": "2026-11-08"
   }
 ]
