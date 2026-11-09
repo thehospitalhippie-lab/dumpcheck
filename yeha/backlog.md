@@ -31,8 +31,9 @@ One item per night. Season sweeps jump the line.
 
 ## Site to-dos (need Micaiah)
 
+- **Google AdSense:** needs a custom domain first. Then paste the `ca-pub-…` ID in chat → `config.json` `adsense_client`.
+- **Harvest Hosts / Good Sam:** apply to their creator/affiliate programs; paste approved links in chat → `config.json` `rv_programs` (set `affiliate: true`).
 - **Amazon Associates** tag → `config.json` `amazon_tag` (gear links in the how-to guide turn into affiliate links).
-- **Suggestion form** (Tally) URL → `config.json` `suggest_form_url`. (No DumpCheck form exists in the connected Tally account yet; checked again 2026-11-09.)
 - **Google Search Console** verification → `config.json` `search_console_verification`.
 - Optional RV programs to apply to later: Good Sam, Harvest Hosts, RV gear brands. Paste approved links in chat; Yeha never adds them on its own.
 

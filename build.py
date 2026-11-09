@@ -23,7 +23,7 @@ from urllib.parse import quote_plus
 
 import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
-from markupsafe import Markup
+from markupsafe import Markup, escape
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "docs"
@@ -122,10 +122,21 @@ def main():
         rel = "sponsored nofollow noopener" if tag else "nofollow noopener"
         return Markup(f'<a href="{href}" rel="{rel}">{label or query}</a>')
 
+    def rv_programs():
+        # Only approved affiliate programs show; nothing renders until Micaiah pastes a link in chat.
+        progs = [p for p in site.get("rv_programs", []) if p.get("affiliate")]
+        if not progs:
+            return Markup("")
+        slug = current.get("page", "/").strip("/").replace("/", "-") or "home"
+        items = "".join(f'<li><a href="{escape(p["url"].replace("{page}", slug))}" rel="sponsored nofollow noopener"><strong>{escape(p["name"])}</strong></a> — {escape(p["blurb"])}</li>' for p in progs)
+        return Markup('<aside class="haul"><h3>Planning more nights on the road?</h3>'
+                      f'<ul>{items}</ul><p class="affiliate-note">These are affiliate links: if you join through one, DumpCheck may earn a commission '
+                      f'at no extra cost to you. They never affect which stations we list. <a href="{url("/disclosures/")}">Disclosures</a>.</p></aside>')
+
     def count(status):
         return sum(1 for s in stations if s["status"] == status)
 
-    md_globals = dict(site=site, url=url, station=station, stations=stations_grid, amazon=amazon, count=count)
+    md_globals = dict(site=site, url=url, station=station, stations=stations_grid, amazon=amazon, count=count, rv_programs=rv_programs)
 
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -190,6 +201,9 @@ def main():
 
     urls = "".join(f"<url><loc>{canonical(p)}</loc><lastmod>{d}</lastmod></url>" for p, d in sitemap)
     (OUT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')
+    if site.get("adsense_client"):
+        pub = site["adsense_client"].replace("ca-", "")
+        (OUT / "ads.txt").write_text(f"google.com, {pub}, DIRECT, f08c47fec0942fa0\n")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {canonical('/sitemap.xml')}\n")
     print(f"Built {len(sitemap)} pages, {len(stations)} stations -> {OUT}")
 

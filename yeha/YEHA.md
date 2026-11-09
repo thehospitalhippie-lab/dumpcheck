@@ -48,3 +48,9 @@ Station keys: `id`, `name`, `region` (east/middle/west), `area`, `operator`, `ki
 4. Research official pages. Record sources and today's date.
 5. `python3 build.py`, then `python3 tools/check.py`. Fix everything; if you can't, don't push.
 6. Commit `Yeha: <what shipped>`, push to `main`, log one line in `yeha/log.md`, update the backlog.
+
+## Money settings (added 2026-11-09)
+
+- `adsense_client` in `config.json` turns on Google Auto ads site-wide and writes `ads.txt`. Only Micaiah sets it, in chat. Pages with `no_ads: true` in their front matter never load ads. Never add ad code anywhere else.
+- An affiliate URL may contain `{page}`; the build swaps in the page's slug so network reports show which page earned. Use it in the network's sub-ID field (Awin `clickref`, FlexOffers `fobs`, Impact `subId1`).
+- `rv_programs` in `config.json` (Harvest Hosts, Good Sam) render through `{{ rv_programs() }}` only when `affiliate` is true. Same rule as Amazon: set it only after Micaiah pastes the approved link in chat.

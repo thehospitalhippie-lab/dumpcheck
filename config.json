@@ -7,8 +7,23 @@
   "language": "en-US",
   "state": "Tennessee",
   "owner_line": "Made in Nashville, Tennessee.",
-  "suggest_form_url": "",
+  "suggest_form_url": "https://tally.so/r/LDzey1",
   "amazon_tag": "",
   "analytics_snippet": "",
-  "search_console_verification": ""
+  "search_console_verification": "",
+  "adsense_client": "",
+  "rv_programs": [
+    {
+      "name": "Harvest Hosts",
+      "blurb": "Annual membership for free overnight stays at wineries, farms and breweries.",
+      "url": "https://harvesthosts.com/",
+      "affiliate": false
+    },
+    {
+      "name": "Good Sam",
+      "blurb": "Membership with campground discounts and roadside assistance.",
+      "url": "https://www.goodsam.com/",
+      "affiliate": false
+    }
+  ]
 }
