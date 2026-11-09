@@ -8,7 +8,7 @@ eyebrow: Great Smoky Mountains · Tennessee side
 lede: The park has dump stations at five campgrounds, plus one near Sugarlands Visitor Center. Here's which ones you can use this time of year.
 summary: Cades Cove, Sugarlands, Cosby and Look Rock, and which are open in winter.
 updated: 2026-11-05
-order: 2
+order: 3
 ---
 
 <div class="answer" markdown="1">

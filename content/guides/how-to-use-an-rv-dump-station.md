@@ -7,7 +7,7 @@ eyebrow: How-to
 lede: About ten minutes, gloves on, black tank first. Here's the whole routine.
 summary: Step by step: gloves on, black tank first, rinse, done.
 updated: 2026-11-05
-order: 4
+order: 5
 ---
 
 <div class="answer" markdown="1">

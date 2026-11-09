@@ -36,7 +36,7 @@ Don't assume. **Love's #369 in Dickson** (I-40 Exit 163) doesn't list RV dump se
 
 - **Ask about the fee first.** Love's doesn't post its dump price online, so ask at the register before you pull up.
 - **Call ahead if you're nearly full.** A truck-stop dump station can be closed for repairs, and a quick call saves a wasted exit.
-- **Have a backup.** Campgrounds with dump stations are another option. See our [Smokies]({{ url('/guides/smokies-rv-dump-stations/') }}) and [Nashville]({{ url('/guides/nashville-rv-dump-stations/') }}) guides.
+- **Have a backup.** Campgrounds with dump stations are another option. See our [state park]({{ url('/guides/tennessee-state-park-dump-stations/') }}), [Smokies]({{ url('/guides/smokies-rv-dump-stations/') }}) and [Nashville]({{ url('/guides/nashville-rv-dump-stations/') }}) guides.
 
 ## Sources
 

@@ -8,7 +8,7 @@ eyebrow: Nashville area
 lede: One year-round truck stop, one state park and three seasonal lake campgrounds, all checked against official pages.
 summary: Love's at White House year-round, plus Cedars of Lebanon State Park and the Percy Priest Lake campgrounds.
 updated: 2026-11-07
-order: 3
+order: 4
 ---
 
 <div class="answer" markdown="1">
@@ -37,7 +37,7 @@ The Corps hasn't posted 2026 dates. Its lake page still shows the 2024 seasons, 
 
 ## Not on this page yet
 
-More state parks near Nashville and private RV parks are next on our list. We'll add each one once the park's or business's own page confirms it.
+More state parks near Nashville and private RV parks are next on our list. We'll add each one once the park's or business's own page confirms it. For state parks across Tennessee, see our [state park guide]({{ url('/guides/tennessee-state-park-dump-stations/') }}).
 
 ## Sources
 

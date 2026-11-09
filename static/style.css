@@ -119,6 +119,7 @@ p.st-checked { margin: auto 0 0; padding-top: .6em; border-top: 1px dashed var(-
 .prose th, .prose td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .prose th { background: var(--green-wash); }
 .sources li { font-size: .9rem; color: var(--ink-soft); }
+.sources a { overflow-wrap: anywhere; }
 .back { margin-top: 28px; font-weight: 700; }
 .affiliate-note { font-size: .86rem; color: var(--ink-soft); }
 
