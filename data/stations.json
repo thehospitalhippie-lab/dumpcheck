@@ -1022,5 +1022,101 @@
       }
     ],
     "last_checked": "2026-11-08"
+  },
+  {
+    "id": "tsp-harrison-bay",
+    "name": "Harrison Bay State Park campground dump station",
+    "region": "east",
+    "area": "Chattanooga area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Main Campground (Areas A, B and C), Harrison Bay State Park, Harrison",
+    "address": "8411 Harrison Bay Road, Harrison, TN 37341",
+    "highway": "",
+    "phone": "423-344-6214",
+    "website": "https://tnstateparks.com/parks/harrison-bay/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. RV sites have water hookups.",
+    "notes": "The park says the Main Campground has one central dump station. A limited number of sites fit RVs up to 65 feet. The park is building a new playground; its construction notice doesn't mention the dump station. The camp store is at 5415 Campground Drive (423-344-7966).",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Harrison Bay Camping (one central dump station in the Main Campground, Areas A, B and C; RV length; construction notice)",
+        "url": "https://tnstateparks.com/parks/harrison-bay/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Harrison Bay State Park (main address; park office and camp store phones)",
+        "url": "https://tnstateparks.com/parks/harrison-bay"
+      }
+    ],
+    "last_checked": "2026-11-10"
+  },
+  {
+    "id": "tsp-indian-mountain",
+    "name": "Indian Mountain State Park campground dump station",
+    "region": "east",
+    "area": "Jellico area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Main Campground, Indian Mountain State Park, Jellico",
+    "address": "143 State Park Circle, Jellico, TN 37762",
+    "highway": "",
+    "phone": "423-566-5870",
+    "website": "https://tnstateparks.com/parks/indian-mountain/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. Main Campground sites have water and sewer hookups.",
+    "notes": "The camping page lists the dump station with the Main Campground but doesn't say exactly where it is.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Indian Mountain Camping (dump station in the Main Campground; hookups; read at the park's older camping address, which serves the current page)",
+        "url": "https://tnstateparks.com/parks/campground/indian-mountain"
+      },
+      {
+        "title": "Tennessee State Parks: Indian Mountain State Park (address and park office phone)",
+        "url": "https://tnstateparks.com/parks/indian-mountain"
+      }
+    ],
+    "last_checked": "2026-11-10"
+  },
+  {
+    "id": "tsp-fort-pillow",
+    "name": "Fort Pillow State Historic Park campground dump station",
+    "region": "west",
+    "area": "Henning area",
+    "operator": "Tennessee State Parks",
+    "kind": "state-park",
+    "where": "Campground entrance (North Loop Campground), Fort Pillow State Historic Park, Henning",
+    "address": "3122 Park Road, Henning, TN 38041",
+    "highway": "",
+    "phone": "731-738-5581",
+    "website": "https://tnstateparks.com/parks/fort-pillow/camping",
+    "status": "check",
+    "status_note": "The park lists the dump station but doesn't post campground dates. Call before you go.",
+    "season": "Not stated by the park",
+    "hours": "",
+    "access": "Tennessee State Parks doesn't say whether non-campers may use it.",
+    "fee": "Not stated by the park.",
+    "water": "Not stated for the dump station. RV sites have water hookups.",
+    "notes": "The park says the dump station and a dumpster are at the campground entrance. Some RV sites fit rigs up to 60 feet. The park office (731-738-5581) is open Monday to Friday, 8 a.m. to 4:30 p.m.",
+    "sources": [
+      {
+        "title": "Tennessee State Parks: Fort Pillow Camping (dump station at the campground entrance; hookups; rig length)",
+        "url": "https://tnstateparks.com/parks/fort-pillow/camping"
+      },
+      {
+        "title": "Tennessee State Parks: Fort Pillow State Historic Park (address; park office phone and hours; dump station at the campground entrance)",
+        "url": "https://tnstateparks.com/parks/fort-pillow"
+      }
+    ],
+    "last_checked": "2026-11-10"
   }
 ]
